@@ -1,1 +1,1 @@
-# static-site-final
+# currie-staticsite-final

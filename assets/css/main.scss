@@ -1,0 +1,131 @@
+body { 
+    background:url("../img/waves2.jpg") no-repeat fixed center center;
+    background-size:cover;
+    font-family: 'Open Sans', sans-serif;
+    }
+  
+  a {
+    text-decoration: none;
+    font-size: 40px;
+  }
+  
+  
+  #container {
+    height:100%;
+  }
+  
+  #infinite {
+    position: absolute;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 33px;
+    height: 100vh;
+    min-height: 100vh;
+        background-color: #39ff14;
+  }
+  
+
+  .port-container {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+  }
+  
+  .grid-container{
+  position:relative;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+  }
+  .overlay {
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .grid-container:hover .overlay {
+    opacity: .75;
+  }
+  
+  
+
+
+
+  #content {
+  
+    float: left;
+    width: 25%;
+  
+  }
+  
+  .port-container {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+  }
+  
+  .grid-container{
+  position:relative;
+  }
+  
+  .image {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .grid-container:hover .overlay {
+    opacity: .75;
+  }
+  
+  
+
+
+
+
+  
+//   new stuff goes below this !! :)
+
+@import "var";
+@import "nav";
+
+
+
+
+
+
+
+
+
